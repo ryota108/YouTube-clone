@@ -2,16 +2,36 @@ import "./App.css";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 import RecommendVideos from "./RecommendVideos";
+import { Routes, Route } from "react-router-dom";
+import SearchPage from "./SearchPage";
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <div className="app__page">
+  function Search (){
+    return(
+      <div style={{display:"flex"}}>
       <Sidebar/>
-      <RecommendVideos/>
+      <SearchPage/>
       </div>
-    </div>
+    )
+  }
+  function Home() {
+    return (
+      <div className="App">
+        <div className="app__page">
+          <Sidebar />
+          <RecommendVideos />
+        </div>
+      </div>
+    );
+  }
+  return (
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/search/:searchTerm" element={<Search/>} />
+      </Routes>
+    </>
   );
 }
 

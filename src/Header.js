@@ -8,6 +8,8 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import { Avatar } from "@mui/material";
 import gentlemen from "./Image/173021.jpg";
 import logo from "./Image/logo.png";
+import {Link} from "react-router-dom";
+
 
 function Header() {
   const [search,setSearch] = useState("")
@@ -15,11 +17,15 @@ function Header() {
     <div className="header">
       <div className="header__right">
         <MenuIcon />
+        <Link to="/">
         <img className="header__logo" src={logo} alt="" />
+        </Link>
       </div>
       <div className="header__input">
         <input type="text" placeholder="Search" onChange={(e)=> setSearch(e.target.value)} value={search} />
+        <Link to={`/search/${search}`}>
         <SearchIcon className="header__inputButton" />
+        </Link>
       </div>
       <div className="header__icons">
         <VideoCallIcon  className="header__icon"/>
