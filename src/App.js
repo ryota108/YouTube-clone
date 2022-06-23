@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import SearchPage from "./SearchPage";
 
 function App() {
+  
   function Search (){
     return(
       <div style={{display:"flex"}}>

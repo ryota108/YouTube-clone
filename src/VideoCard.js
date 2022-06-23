@@ -2,8 +2,9 @@ import React from "react";
 import "./VideoCard.css";
 import { Avatar } from "@mui/material";
 
-function VideoCard({ image, title, channel, views, timestamp, channelImage }) {
+function VideoCard({ image, title, channel, views, timestamp, channelImage,url }) {
   return (
+    <a className="videoCard__link" target="_blank" rel="noreferrer" href={`https://youtu.be/${url}`}>
     <div className="videoCard">
       <img className="videoCard__thumbnail" src={image} alt="" />
       <div className="videoCard__info">
@@ -17,6 +18,7 @@ function VideoCard({ image, title, channel, views, timestamp, channelImage }) {
       </div>
       </div>
     </div>
+    </a>
   );
 }
 
