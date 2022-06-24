@@ -1,0 +1,66 @@
+const data = [
+  {
+    title: "Seasons of WASEDA 早稲田の四季 総集編",
+    videoId: "slZJKAwT3-g",
+    channel:"Waseda University 早稲田大学",
+    channelImg:"https://yt3.ggpht.com/ytc/AKedOLRrLyk7ay2-OcwqVWjYPBsS2TuzuSu03XabBzG5=s176-c-k-c0x00ffffff-no-rj",
+  },
+  {
+    title: "なぜ早稲田？ （2020年版）",
+    videoId: "Nxu4JYEwgzo",
+    channel:"Waseda University 早稲田大学",
+    channelImg:"https://yt3.ggpht.com/ytc/AKedOLRrLyk7ay2-OcwqVWjYPBsS2TuzuSu03XabBzG5=s176-c-k-c0x00ffffff-no-rj",
+  },
+  {
+    title: "早稲田大学トピックス2021-2022＜Waseda A year in review 2021-2022＞",
+    videoId: "nimyS2Sz3Gg",
+    channel:"Waseda University 早稲田大学",
+    channelImg:"https://yt3.ggpht.com/ytc/AKedOLRrLyk7ay2-OcwqVWjYPBsS2TuzuSu03XabBzG5=s176-c-k-c0x00ffffff-no-rj",
+  },
+  {
+    title: "【早稲田大学】早稲田生が思う早稲田の満足度って何点？ - 早稲田の実態調査 -",
+    videoId: "yVbZLBeRGDI",
+    channel:"Nogifa 学生インタビュー",
+    channelImg:"https://yt3.ggpht.com/O6m9KQxNxHE2B2x-BfagKW-G7UFb4qmTHp_JPe-CWemrmxd8isUzwiOi7TOAEPagG4da2TwiiA=s176-c-k-c0x00ffffff-no-rj",
+  },
+  {
+    title: "【早稲田大学】大学で学んでいることは？部活と勉強の両立は難しい？早稲田大学漕艇部にインタビュー！",
+    videoId: "5lih-nnvD5Y",
+    channel:"Nogifa 学生インタビュー",
+    channelImg:"https://yt3.ggpht.com/O6m9KQxNxHE2B2x-BfagKW-G7UFb4qmTHp_JPe-CWemrmxd8isUzwiOi7TOAEPagG4da2TwiiA=s176-c-k-c0x00ffffff-no-rj",
+  },
+  {
+    title: "【早稲田大学】早稲田の満足度は何点? #05",
+    videoId: "x9ZRC-XTcc4",
+    channel:"Nogifa 学生インタビュー",
+    channelImg:"https://yt3.ggpht.com/O6m9KQxNxHE2B2x-BfagKW-G7UFb4qmTHp_JPe-CWemrmxd8isUzwiOi7TOAEPagG4da2TwiiA=s176-c-k-c0x00ffffff-no-rj",
+  },
+  {
+    title: "早稲田大合格の参考書と勉強法。【塗りつぶせ】",
+    videoId: "0g4dFMHD62Q",
+    channel:"超わかる！授業動画",
+    channelImg:"https://yt3.ggpht.com/ytc/AKedOLTZczdbyB6bngKTiOj7Pmeqehc3lsXb1AC75_hGaQ=s176-c-k-c0x00ffffff-no-rj",
+  },
+  {
+    title: "早稲田大合格者の受験戦略。【塗りつぶせ】",
+    videoId: "b_d7vJB_ky0",
+    channel:"超わかる！授業動画",
+    channelImg:"https://yt3.ggpht.com/ytc/AKedOLTZczdbyB6bngKTiOj7Pmeqehc3lsXb1AC75_hGaQ=s176-c-k-c0x00ffffff-no-rj",
+  },
+  {
+    title: "Waseda Dorm WISH | Room Tour, Tokyo Japan",
+    videoId: "PZzJPy1IPJ4",
+    channel:"misatofujii 藤井美里",
+    channelImg:"https://yt3.ggpht.com/ytc/AKedOLSEvvSEHjx1DdTC84Ioo8SCTs1VJC_yHqkWx4k=s176-c-k-c0x00ffffff-no-rj",
+  },
+  // {},
+  // {},
+  // {},
+  // {},
+  // {},
+  // {},
+  // {},
+  // {},
+  // {},
+];
+export default data;

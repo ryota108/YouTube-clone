@@ -1,0 +1,47 @@
+.Detail{
+  display: flex;
+  background-color: #f9f9f9;
+}
+.leftScreen{
+  flex: 0.55;
+}
+.rightScreen{
+  flex: 0.45;
+}
+.Detail__youtube{
+  margin: 25px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+.Detail__mainVideo{
+  width: 100%;
+  height: 100%;
+}
+/* .Detail__videoInfo{
+
+} */
+.Detail__channelIcon{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.Detail__videoInfo > hr {
+  height:1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Detail__title{
+  font-family: "Roboto","Arial",sans-serif;
+  line-height: 2.6rem;
+  font-weight: 400;
+  max-height: 5.2rem;
+  font-size: 1.5rem;
+}
+.Detail__channelInfo {
+  display: flex;
+}
+.Detail__channelInfo > p {
+  margin-left: 20px;
+}

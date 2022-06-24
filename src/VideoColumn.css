@@ -1,0 +1,4 @@
+.videoColumn {
+  display: flex;
+  flex-direction: column;
+}

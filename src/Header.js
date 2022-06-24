@@ -11,12 +11,17 @@ import logo from "./Image/logo.png";
 import {Link} from "react-router-dom";
 
 
-function Header() {
+function Header(props) {
+  const [close, setClose] = useState(false);
   const [search,setSearch] = useState("")
+  const clickHandler = ()=>{
+    setClose((prev)=>!prev);
+    props.onSubmit(close);
+  }
   return (
     <div className="header">
       <div className="header__right">
-        <MenuIcon />
+        <MenuIcon onClick={clickHandler}/>
         <Link to="/">
         <img className="header__logo" src={logo} alt="" />
         </Link>

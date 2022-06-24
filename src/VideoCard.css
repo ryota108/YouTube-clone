@@ -5,6 +5,7 @@
 }
 
 .videoCard__thumbnail{
+  user-select: none;
   height: 140px;
   width: 250px;
 }
