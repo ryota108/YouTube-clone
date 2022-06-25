@@ -3,12 +3,11 @@ import "./Detail.css";
 import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 import ThumbDownOffAltIcon from "@mui/icons-material/ThumbDownOffAlt";
 import ShareIcon from "@mui/icons-material/Share";
-import VideoColumn from "./VideoColumn";
 
-function Detail({ videoId, title, channel, channelImg }) {
+function Detail({ videoId, title, channel, channelImg}) {
   return (
     <div className="Detail">
-      <div className="leftScreen">
+      {/* <div className="leftScreen"> */}
         <div className="Detail__youtube">
           <iframe
             className="Detail__mainVideo"
@@ -30,11 +29,11 @@ function Detail({ videoId, title, channel, channelImg }) {
             <p>
               <strong>{channel}</strong>
             </p>
-          </div>
+          {/* </div> */}
         </div>
       </div>
       <div className="rightScreen">
-        <VideoColumn />
+        {/* <VideoColumn /> */}
       </div>
     </div>
   );

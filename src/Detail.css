@@ -1,13 +1,8 @@
 .Detail{
-  display: flex;
   background-color: #f9f9f9;
+  flex: 0.6;
 }
-.leftScreen{
-  flex: 0.55;
-}
-.rightScreen{
-  flex: 0.45;
-}
+
 .Detail__youtube{
   margin: 25px;
   width: 100%;
@@ -17,9 +12,6 @@
   width: 100%;
   height: 100%;
 }
-/* .Detail__videoInfo{
-
-} */
 .Detail__channelIcon{
   width: 50px;
   height: 50px;

@@ -3,9 +3,12 @@
   margin-bottom:30px;
   max-width: 700px;
   margin-left: 30px;
-  margin-bottom: -20px;
+  margin-bottom: 5px;
 }
-
+.videoRow__subVideo {
+  width: 250px;
+  height: 150px;
+}
 .videoRow > img {
   margin-top: 20px;
   object-fit: contain;
@@ -16,6 +19,10 @@
 .videoRow__text{
   margin-left: 14px;
 }
+.videoRow__avatar {
+  width: 30px !important;
+  height: 30px !important;
+}
 
 .videoRow__description{
   margin-top: 20px;
@@ -25,6 +32,17 @@
 .videoRow__headline{
    font-size: 12px;
    color: #606060;
+   display: flex;
+   align-items: center;
+   margin-left: 5px;
+   margin-top: -10px;
+}
+.videoRow__headline > p{
+  margin-left: 10px;
+}
+
+.videoRow__text > h3 {
+  font-size: 15px;
 }
 
 .videoRow__subs{

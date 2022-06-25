@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import SearchPage from "./SearchPage";
 import Detail from "./Detail";
 import data from "./Data/data";
+import VideoColumn from "./VideoColumn";
 
 function App() {
   // const [close, setClose] = useState(false);
@@ -15,9 +16,9 @@ function App() {
     return video.videoId === id;
   });
 
-  // const submitHelper = (prev) => {
-  //   setClose(prev);
-  // };
+  const clickRowHelper = (prev) =>{
+    setId(prev);
+  }
   const clickHelper = (prev) => {
     setId(prev);
   };
@@ -39,23 +40,25 @@ function App() {
       </div>
     );
   }
+  function Details(){
+    return(
+      <div className="Details">
+        <Detail   title={detail[0]?.title}
+              videoId={detail[0]?.videoId}
+              channel={detail[0]?.channel}
+              channelImg={detail[0]?.channelImg}/>
+            <VideoColumn onHelper={clickRowHelper}/>
+      </div>
+    )
+  }
   return (
     <>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/search/:searchTerm" element={<Search />} />
-        <Route
-          path="/detail/:detail"
-          element={
-            <Detail
-              title={detail[0]?.title}
-              videoId={detail[0]?.videoId}
-              channel={detail[0]?.channel}
-              channelImg={detail[0]?.channelImg}
-            />
-          }
-        />
+        <Route path="/detail/:detail"
+        element={<Details/>}/>
       </Routes>
     </>
   );

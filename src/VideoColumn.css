@@ -1,4 +1,6 @@
 .videoColumn {
+  flex: 0.4;
   display: flex;
   flex-direction: column;
+  background-color: #f9f9f9;
 }
