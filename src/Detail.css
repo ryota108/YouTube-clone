@@ -37,3 +37,24 @@
 .Detail__channelInfo > p {
   margin-left: 20px;
 }
+
+@media screen and (max-width:480px) {
+  .Detail__youtube{
+    margin: 0px;
+  }
+  .Detail__title{
+    font-size: 1rem;
+  }
+  .Detail__channelIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  .Detail__channelInfo > p {
+  font-size: 10px;
+  margin-left: 10px;
+  }
+  .Detail__channelInfo{
+    align-items: center;
+  }
+}

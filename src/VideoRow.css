@@ -54,3 +54,30 @@
   font-weight: bolder;
   color: rgba(84,157,211);
 }
+
+@media screen and (max-width:480px) {
+  .videoRow{
+    margin-left: 10px;
+  }
+  .videoRow__subVideo{
+    width: 150px;
+    height: 100px;
+  }
+  .videoRow__text{
+    margin-left: 5px;
+  }
+  .videoRow__text > h3 {
+    font-size: 10px;
+  }
+  .videoRow__headline{
+    margin-left: 0px;
+  }
+  .videoRow__headline > p{
+    margin-left: 3px;
+   font-size: 8px;
+  }
+  .videoRow__avatar {
+    width: 20px !important;
+    height: 20px !important;
+  }
+}

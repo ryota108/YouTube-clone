@@ -1,6 +1,5 @@
 import React from "react";
 import "./VideoRow.css";
-import {Link} from "react-router-dom";
 import { Avatar } from "@mui/material";
 function VideoRow({ channelImage, channel, title, videoId,clickHandler}) {
   const clickHandle = () => {
